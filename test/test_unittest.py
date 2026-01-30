@@ -1,10 +1,7 @@
- # test_unittest.py
-
 import unittest
 import sys
 import os
 
-# Make sure src is on the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from src.calculator import fun1, fun2, fun3, fun4
