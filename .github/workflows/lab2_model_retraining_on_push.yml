@@ -31,7 +31,7 @@ jobs:
         run: ls -lh lab2/models
 
       - name: Upload trained model as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: trained-model
           path: lab2/models/*.pkl
