@@ -3,8 +3,8 @@ name: Lab 2 Model Retraining
 on:
   push:
     branches:
-      - main
-      - lab2
+      - main2213
+      - lab212
 
 jobs:
   train:
