@@ -28,10 +28,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: trained-model
-          path: lab2/models
-
-      - name: List models folder
-        run: ls -lh lab2/models
+          path: lab2/models/
 
       - name: Evaluate model
         run: python lab2/src/evaluate_model.py
