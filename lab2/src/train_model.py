@@ -38,6 +38,7 @@ model.fit(X_train, y_train)
 # Save model with timestamp
 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 model_filename = f"lab2/models/model_{timestamp}.pkl"
-joblib.dump(model, model_filename)
+joblib.dump(model, model_filename, protocol=5)
+
 
 print(f"Model saved to {model_filename}")
